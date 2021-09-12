@@ -4,22 +4,22 @@ import './Cards.css'
 function Cards() {
     return (
         <div className='cards'>
-             <h1>Check out these epic destinations!</h1>  
+             <h1>Check out these React tutorials!</h1>  
              <div className="cards__container">
                <div className = "cards__wrapper">
                    <ul className='cards__items'>
                        <CardItem 
-                       src="/images/img-9.jpg"
-                       text="Explore the hidden waterfal.."
-                       label = 'Adventure'
+                       src="/images/react5.jpg"
+                       text="React JS Course 2021"
+                       label = 'React tutorial'
 
                        path='/services'
                        />
 
                        <CardItem 
-                       src="/images/img-2.jpg"
-                       text="Explore the hidden waterfal.."
-                       label = 'Adventure'
+                       src="/images/react1.png"
+                       text="React JS - React Tutorial for Beginners"
+                       label = 'React tutorial'
 
                        path='/services'
                        />
@@ -27,24 +27,31 @@ function Cards() {
 
                    <ul className='cards__items'>
                        <CardItem 
-                       src="/images/img-9.jpg"
-                       text="Explore the hidden waterfal.."
-                       label = 'Adventure'
+                       src="/images/react2.jpg"
+                       text="How I learned React JS in 7 Days"
+                       label = 'React tutorial'
 
                        path='/services'
                        />
 
                        <CardItem 
-                       src="/images/img-2.jpg"
-                       text="Explore the hidden waterfal.."
-                       label = 'Adventure'
+                       src="/images/react3.jpg"
+                       text="Full React Tutorial"
+                       label = 'React tutorial'
 
                        path='/services'
                        />
                        <CardItem 
-                       src="/images/img-2.jpg"
-                       text="Explore the hidden waterfal.."
-                       label = 'Adventure'
+                       src="/images/react4.jpg"
+                       text="React JS - React Tutorial for Beginners"
+                       label = 'React tutorial'
+
+                       path='/services'
+                       />
+                        <CardItem 
+                       src="/images/react5.jpg"
+                       text="React JS Course 2020"
+                       label = 'React tutorial'
 
                        path='/services'
                        />
