@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import './SignUp.css'
-import Form from 'react-bootstrap/Form'
-export default class SignUp extends Component {
-    render() {
+ 
+export default function SignUp() {
+    
         return (
             <div className='mojDiv'>
                 <form className="forma">
@@ -30,11 +30,11 @@ export default class SignUp extends Component {
 
                 <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
                 <p className="forgot-password text-right">
-                    Already registered <a href="#">sign in?</a>
+                    Already registered <a href="/log-in">sign in?</a>
                 </p>
             </form>
             </div>
             
         );
-    }
+    
 }
